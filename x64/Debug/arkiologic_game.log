@@ -1,0 +1,29 @@
+﻿  screen.cpp
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(77,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(78,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(86,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(87,35): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(91,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(92,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(94,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(95,35): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\screen.cpp(78,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\screen.cpp(78,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\screen.cpp(28,1): warning C4715: 'Screen::coord_to_vec_space': not all control paths return a value
+  arkiologic_game.vcxproj -> C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\x64\Debug\arkiologic_game.exe
