@@ -129,14 +129,21 @@
   <ItemGroup>
     <ClCompile Include="arkiologic_game.cpp" />
     <ClCompile Include="circle.cpp" />
+    <ClCompile Include="collect_snake_thing.cpp" />
     <ClCompile Include="picture.cpp" />
     <ClCompile Include="position.cpp" />
+    <ClCompile Include="rectangle.cpp" />
     <ClCompile Include="space_to_dig_scene.cpp" />
     <ClCompile Include="screen.cpp" />
     <ClCompile Include="usful_funcs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="chest.txt" />
+    <Text Include="dude.txt" />
+    <Text Include="sword.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

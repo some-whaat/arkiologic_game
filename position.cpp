@@ -1,12 +1,9 @@
 #include "Header.h"
 
-position position::sum(position pos) {
-    position n_pos;
+void position::sum(position pos) {
 
-    n_pos.x = x + pos.x;
-    n_pos.y = y + pos.y;
-
-    return n_pos;
+    x += pos.x;
+    y += pos.y;
 }
 
 position position::mins(position pos) {
@@ -40,27 +37,29 @@ position position::normalise() {
     return this->div(len);
 }
 
-position position::follow(const position& to_pos, float speed, float min_dist = 0) {
+void position::follow(const position& to_pos, float speed, float min_dist = 0) {
 
-    if (position(x, y).dist(to_pos) <= min_dist) {
-        return position(x, y);
+    if (!(position(x, y).dist(to_pos) <= min_dist)) {
+
+        position between_vec = position(to_pos.x - x, to_pos.y - y);
+        between_vec = between_vec.normalise();
+        between_vec = between_vec.mult(speed);
+
+        this->sum(between_vec);
+        //return position(x, y).sum(between_vec);
     }
 
-    position between_vec = position(to_pos.x - x, to_pos.y - y);
-    between_vec = between_vec.normalise();
-    between_vec = between_vec.mult(speed);
-
-    return position(x, y).sum(between_vec);
 }
 
-position position::move_to(position& to_pos, float min_dist = 0) {
+void position::move_to(position& to_pos, float min_dist = 0) {
     position between_vec = to_pos.mins(*this);
     float len = between_vec.len();
 
     if (len > min_dist) {
-        return position(x, y).sum(between_vec.mult((len - min_dist) / len));
+        this->sum(between_vec.mult((len - min_dist) / len));
+        //return position(x, y).sum(between_vec.mult((len - min_dist) / len));
     }
-    return *this;
+    //return *this;
 }
 
 position position::coords_to_vec_space(position coord_pos, int cols, int rows) {

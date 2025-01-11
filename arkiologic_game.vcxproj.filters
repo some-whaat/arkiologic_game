@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\loot">
+      <UniqueIdentifier>{64be2f5b-fe7a-4290-9820-170c4cb2b261}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="arkiologic_game.cpp">
@@ -36,10 +39,27 @@
     <ClCompile Include="usful_funcs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="collect_snake_thing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dude.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="chest.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="sword.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
   </ItemGroup>
 </Project>

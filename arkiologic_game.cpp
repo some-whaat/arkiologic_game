@@ -21,29 +21,13 @@ float clamp(float n, float lower, float upper) {
 
 int main()
 {
-    Screen screen = Screen();  
+    //std::ifstream sword_file;
+    //sword_file.open("sword_grathics.txt");
+     
+    //loot.push_back(picture(sword_file, 0, 0)); 
 
-    space_to_dig_scene mission = space_to_dig_scene();
+    //space_to_dig_scene mission = space_to_dig_scene();
+    collect_snake_thing mission = collect_snake_thing();
 
-    std::ifstream sword_file;
-    sword_file.open("sword_grathics.txt");
-    
-    picture pic = picture(sword_file, 0, 0);
-    //pic.fit_to_screen();
-
-    while (mission.pieses.size() != 0) {
-
-        if (GetAsyncKeyState(VK_SPACE))
-        {
-            mission.dig();
-        }
-
-        mission.render();
-        /*
-        if (something_changed) {
-            render(mission, pic, screen);
-
-            something_changed = false;
-        } */
-    }
+    mission.action();
 }
