@@ -2,6 +2,11 @@
 
 
 
+std::ifstream sword("sword.txt");
+std::ifstream kirk("kirk.txt");
+
+std::vector<loot> _loot = {loot(sword, "sword", 0, 0), loot(kirk, "kirk", 0, 0)};
+
 int rand_int(int down_bord, int up_bord) {
     if (up_bord > down_bord && up_bord > 0) {
 

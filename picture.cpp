@@ -15,7 +15,9 @@ void picture::draw_pic(std::vector<std::string>* screen_vec, Screen& screen) {
 
         int x_coord = screen.coord_to_vec_space(x, 'x');
 
-        if (iy >= 0 && x_coord + (wighth / 2) < (&screen)->cols * 2 && x_coord - (wighth / 2) > 0) {
+        //(*screen_vec)[iy].replace(max(ceil(wighth / 2), x - floor(wighth / 2)), min(wighth, (&screen)->cols * 2 - x_coord - (wighth / 2)), image_vec[i]);
+
+        if (iy >= 0 && x_coord + floor(wighth / 2) < (&screen)->cols * 2 && x_coord - ceil(wighth / 2) > 0 && i < image_vec.size()) {
             (*screen_vec)[iy].replace(x_coord - (wighth / 2), wighth, image_vec[i]);
             //(*screen_vec)[rows - 6].replace(cols - 6, image.size(), image);
         }

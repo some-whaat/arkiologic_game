@@ -39,6 +39,8 @@ void collect_snake_thing::procces_collisions() {
 
 void collect_snake_thing::action() {
 
+    text_seq_render(introduction_text_);
+
     while (snake_circs.size() > 0 || frut_circs.size() > 0)
     {
         position dir;
@@ -83,8 +85,11 @@ void collect_snake_thing::action() {
 
         if (something_changed == true) {
             procces_collisions();
+
             render();
             something_changed = false;
         }
     }
+
+    text_seq_render(end_text_);
 }

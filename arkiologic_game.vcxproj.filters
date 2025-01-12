@@ -45,6 +45,12 @@
     <ClCompile Include="rectangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text_squere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -59,6 +65,12 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="sword.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="scraps.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="kirk.txt">
       <Filter>Resource Files\loot</Filter>
     </Text>
   </ItemGroup>

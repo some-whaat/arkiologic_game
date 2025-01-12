@@ -29,6 +29,8 @@ void space_to_dig_scene::generate_pieses() {
 
 void space_to_dig_scene::action() {
 
+    text_seq_render(introduction_text_);
+
     while (circles.size() > 0) {
 
         if (GetAsyncKeyState(VK_SPACE)) {
@@ -46,4 +48,6 @@ void space_to_dig_scene::action() {
 
         render();
     }
+
+    text_seq_render(end_text_);
 }

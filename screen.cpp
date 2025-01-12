@@ -39,8 +39,8 @@ char Screen::pix_calc(int x, int y) {
             }
         }
     }
-/*
-    for (circle circ : *_circles[0]) {
+
+    /*for (circle circ : *_circles[1]) {
         if (circ.is_in_circle(x, y, 0)) {
 
             float dist = circ.dist(position(x, y));
@@ -69,9 +69,22 @@ void Screen::render() {
         for (int i = 0; i < rows; i++) {
             screen_vec.emplace_back(cols * 2, ' ');
         }
+       
 
+        /*for (circle circ : *_circles[0]) {
+            circ.draw_circ(&screen_vec, *this, rend_style);
+        }
+
+        for (circle circ : *_circles[0]) {
+            circ.draw_circ(&screen_vec, *this, rend_style);
+        }*/
+        
         for (picture pic : _pictures) {
             pic.draw_pic(&screen_vec, *this);
+        }
+
+        for (text_squere text : _text) {
+            text.draw_text(&screen_vec, *this);
         }
         
         for (int y = rows / 2; y > -1 * (rows / 2); y--) {
@@ -88,19 +101,67 @@ void Screen::render() {
 
                 }
             }
-
+            /*
             if (y != -1 * (rows / 2) + 1) {
                 //row_str += "\n";
                 screen_vec[(rows / 2) - y] += '\n';
-            }
+            }*/
         }
         //pictures[0].draw_pic(&screen_vec, *this);
 
-        for (std::string str : screen_vec) {
-            std::cout << str;
+        for (int i = 0; i < rows; i++) {
+
+            if (!(i == rows - 1)) {
+                std::cout << screen_vec[i] << std::endl;
+            }
+            else {
+                std::cout << screen_vec[i];
+            }
         }
 
         Sleep(MBF);
     }
     something_changed = false;
+}
+
+void Screen::text_seq_render(std::vector<text_squere> text_seq) {
+
+    something_changed = true;
+
+    while (text_seq.size() != 0) {
+
+        if (something_changed) {
+            system("cls");
+            enshure_cols_rows();
+
+            screen_vec = {};
+            for (int i = 0; i < rows; i++) {
+                screen_vec.emplace_back(cols * 2, ' ');
+            }
+
+
+            text_seq[0].draw_text(&screen_vec, *this);
+
+
+            for (int i = 0; i < rows; i++) {
+
+                if (!(i == rows - 1)) {
+                    std::cout << screen_vec[i] << std::endl;
+                }
+                else {
+                    std::cout << screen_vec[i];
+                }
+            }
+
+            something_changed = false;
+        }
+
+
+        if (GetAsyncKeyState(VK_SPACE)) {
+            text_seq.erase(text_seq.begin());
+            something_changed = true;
+        }
+
+        Sleep(MBF);
+    }
 }

@@ -9,3 +9,53 @@ bool rectangle::is_in_rec(position other_pos, float add_dist) {
 bool rectangle::is_in_rec(int in_x, int in_y, float add_dist) {
 	return in_x < x + (wighth / 2) + add_dist && in_x > x - (wighth / 2) - add_dist && in_y < y + (hight / 2) + add_dist && in_y > y - (hight / 2) - add_dist;
 }
+
+void rectangle::draw_rec(std::vector<std::string>* screen_vec, Screen& screen, char fill, int add_val) {
+    int y_coord = (screen.coord_to_vec_space(y, 'y') - 1);
+    int x_coord = screen.coord_to_vec_space(x, 'x');
+
+    float now_hight = add_val + hight;
+    float now_wighth = add_val + wighth;
+
+    std::string line = std::string(now_wighth, fill);
+
+    for (int iy = y_coord - floor(now_hight / 2); iy < y_coord + ceil(now_hight / 2) && iy < (&screen)->rows; iy++) {
+
+        if (iy >= 0 && x_coord + (now_wighth / 2) < (&screen)->cols * 2 && x_coord - (now_wighth / 2) > 0) {
+            (*screen_vec)[iy].replace(x_coord - (now_wighth / 2), now_wighth, line);
+            //(*screen_vec)[rows - 6].replace(cols - 6, image.size(), image);
+        }
+    }
+}
+
+void rectangle::draw_frame(std::vector<std::string>* screen_vec, Screen& screen, bool is_big, int add_val) {
+    int y_coord = (screen.coord_to_vec_space(y, 'y') - 1);
+    int x_coord = screen.coord_to_vec_space(x, 'x');
+
+    float now_hight = add_val + hight;
+    float now_wighth = add_val + wighth;
+
+    std::string bord_lines;
+    std::string mid_lines;
+    
+    if (is_big) {
+        bord_lines = std::string(now_wighth, '=');
+        mid_lines = 'H' + std::string(now_wighth - 2, ' ') + 'H';
+    }
+    else {
+        bord_lines = std::string(now_wighth, '-');
+        mid_lines = '|' + std::string(now_wighth - 2, ' ') + '|';
+    }
+
+    (*screen_vec)[y_coord - floor(now_hight / 2)].replace(x_coord - (now_wighth / 2), now_wighth, bord_lines);
+
+    for (int iy = y_coord - floor(now_hight / 2) + 1; iy < y_coord + ceil(now_hight / 2) - 1 && iy < (&screen)->rows; iy++) {
+
+        if (iy >= 0 && x_coord + (now_wighth / 2) < (&screen)->cols * 2 && x_coord - (now_wighth / 2) > 0) {
+            (*screen_vec)[iy].replace(x_coord - (now_wighth / 2), now_wighth, mid_lines);
+            //(*screen_vec)[rows - 6].replace(cols - 6, image.size(), image);
+        }
+    }
+
+    (*screen_vec)[y_coord + ceil(now_hight / 2) - 1].replace(x_coord - (now_wighth / 2), now_wighth, bord_lines);
+}

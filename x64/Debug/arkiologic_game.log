@@ -1,267 +1,820 @@
-﻿  arkiologic_game.cpp
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(98,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+﻿  Menu.cpp
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Menu.cpp')
+  
+  arkiologic_game.cpp
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(99,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(107,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(108,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(125,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(126,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'arkiologic_game.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'arkiologic_game.cpp')
   
   circle.cpp
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(98,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'circle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(99,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'circle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(107,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'circle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(108,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   (compiling source file 'circle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(125,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'circle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(126,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'circle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'circle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'circle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'circle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'circle.cpp')
   
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'circle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(14,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(16,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(18,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(19,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(20,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(22,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(24,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(30,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(30,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(36,25): warning C4305: 'argument': truncation from 'int' to '_Elem'
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(36,25): warning C4305:         with
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(36,25): warning C4305:         [
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(36,25): warning C4305:             _Elem=char
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(36,25): warning C4305:         ]
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\circle.cpp(36,25): warning C4309: 'argument': truncation of constant value
   collect_snake_thing.cpp
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(98,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(99,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(107,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(108,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(125,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(126,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'collect_snake_thing.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'collect_snake_thing.cpp')
   
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\collect_snake_thing.cpp(18,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\collect_snake_thing.cpp(32,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   picture.cpp
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(98,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'picture.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(99,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'picture.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(107,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'picture.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(108,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   (compiling source file 'picture.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(125,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'picture.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(126,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'picture.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'picture.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'picture.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'picture.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'picture.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'picture.cpp')
   
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\picture.cpp(12,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\picture.cpp(14,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\picture.cpp(16,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\picture.cpp(19,63): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\picture.cpp(19,47): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\picture.cpp(21,63): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\picture.cpp(21,47): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   position.cpp
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(98,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'position.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(99,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'position.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(107,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'position.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(108,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   (compiling source file 'position.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(125,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'position.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(126,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'position.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'position.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'position.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'position.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'position.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'position.cpp')
   
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\position.cpp(27,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\position.cpp(31,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   rectangle.cpp
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(98,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'rectangle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(99,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'rectangle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(107,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'rectangle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(108,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   (compiling source file 'rectangle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(125,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'rectangle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(126,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'rectangle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'rectangle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'rectangle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'rectangle.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'rectangle.cpp')
   
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'rectangle.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(14,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(15,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(20,36): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(22,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(25,67): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(25,47): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(32,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(33,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(42,34): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(43,50): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(46,34): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(47,50): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(50,27): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(50,87): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(50,67): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(52,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(55,67): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(55,47): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(60,49): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(60,90): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\rectangle.cpp(60,70): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   screen.cpp
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(98,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'screen.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(99,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'screen.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(107,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'screen.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(108,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   (compiling source file 'screen.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(125,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'screen.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(126,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'screen.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'screen.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'screen.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'screen.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'screen.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'screen.cpp')
   
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\screen.cpp(36,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\screen.cpp(36,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   space_to_dig_scene.cpp
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(98,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(99,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(107,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(108,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(125,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(126,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'space_to_dig_scene.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\space_to_dig_scene.cpp(17,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\space_to_dig_scene.cpp(18,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\space_to_dig_scene.cpp(18,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\space_to_dig_scene.cpp(21,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\space_to_dig_scene.cpp(42,76): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\space_to_dig_scene.cpp(44,76): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103): warning C4244:         with
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103): warning C4244:         [
@@ -296,35 +849,179 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.3412
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xmemory(700,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'space_to_dig_scene.cpp')
   
+  text_squere.cpp
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'text_squere.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\text_squere.cpp(10,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\text_squere.cpp(12,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\text_squere.cpp(14,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\text_squere.cpp(17,70): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\text_squere.cpp(17,44): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   usful_funcs.cpp
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(98,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(118,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(99,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(123,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(107,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(108,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(125,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(132,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(126,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(142,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(128,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(147,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(129,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(148,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(151,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
-C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(161,83): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(162,58): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(165,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(175,34): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(189,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(190,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(198,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(199,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(216,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(217,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(219,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(220,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(239,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(240,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(248,31): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(249,35): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(318,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'usful_funcs.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects_drafts\arkiologic_game\arkiologic_game\arkiologic_game\Header.h(384,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'usful_funcs.cpp')
   
   Generating Code...
