@@ -32,6 +32,7 @@ void space_to_dig_scene::action() {
     text_seq_render(introduction_text_);
 
     while (circles.size() > 0) {
+        take_the_food();
 
         if (GetAsyncKeyState(VK_SPACE)) {
 
@@ -50,4 +51,14 @@ void space_to_dig_scene::action() {
     }
 
     text_seq_render(end_text_);
+}
+
+void space_to_dig_scene::get_possible_loot() {
+
+    std::ifstream sword("sword.txt");
+    std::ifstream kirk("kirk.txt");
+
+    std::vector<loot> possible_loot = { loot(sword, "sword", 0, 0), loot(kirk, "kirk", 0, 0) };
+
+    result_loot = possible_loot[rand_int(0, possible_loot.size() - 1)];
 }

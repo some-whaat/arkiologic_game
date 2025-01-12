@@ -4,7 +4,7 @@
 
 void text_squere::draw_text(std::vector<std::string>* screen_vec, Screen& screen) {
 
-    draw_frame(screen_vec, screen, false, 4);
+    draw_frame(screen_vec, screen, is_big, 4);
 
     int i = 0;
     int y_coord = (screen.coord_to_vec_space(y, 'y') - 1);

@@ -131,6 +131,7 @@
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="collect_snake_thing.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Mission.cpp" />
     <ClCompile Include="picture.cpp" />
     <ClCompile Include="position.cpp" />
     <ClCompile Include="rectangle.cpp" />
@@ -145,6 +146,7 @@
   <ItemGroup>
     <Text Include="chest.txt" />
     <Text Include="dude.txt" />
+    <Text Include="gamstone.txt" />
     <Text Include="kirk.txt" />
     <Text Include="scraps.txt" />
     <Text Include="sword.txt" />

@@ -51,6 +51,9 @@
     <ClCompile Include="text_squere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mission.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -71,6 +74,9 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="kirk.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="gamstone.txt">
       <Filter>Resource Files\loot</Filter>
     </Text>
   </ItemGroup>

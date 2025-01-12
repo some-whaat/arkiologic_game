@@ -24,7 +24,7 @@ class loot;
 class Screen;
 class Scene;
 
-extern std::vector<loot> _loot;
+//extern enum menu_options;
 
 int rand_int(int down_bord, int up_bord);
 
@@ -110,6 +110,10 @@ public:
 class text_squere : public rectangle {
 public:
     std::vector<std::string> text_vec;
+
+    bool is_big = false;
+
+    text_squere() : text_vec({}) {}
 
     text_squere(std::string in_text, int in_wighth) {
         x, y = 0;
@@ -259,9 +263,11 @@ protected:
 
     bool something_changed = true;
     const int MBF = 77; //milliseconds between frames
-    std::string rend_style = "0000000000";
+
 
 public:
+
+    std::string rend_style = "0000000000";
 
     std::vector<std::vector<circle>*> _circles;
     std::vector<picture> _pictures;
@@ -298,7 +304,8 @@ public:
 
 class Player {
 public:
-    unsigned int food, money = 0;
+    unsigned int money = 0;
+    float food = 0;
 
     std::vector<loot> inventory = {};
 
@@ -312,12 +319,25 @@ public:
     std::vector<text_squere> end_text_;
     loot result_loot;
 
+    text_squere food_text;
+    float food_spending = 0.25f;
+    float food_spend = 0;
+
+    Player* player;
+
+    std::chrono::steady_clock::time_point begin_time;
+
     //difficulty_lewel
 
     Mission() {
-        result_loot = _loot[rand_int(0, _loot.size() - 1)];
+        food_text = text_squere("", 0);
+        _text.push_back(food_text);
     }
 
+    //virtual void action() = 0;
+    //virtual void get_possible_loot() = 0;
+
+    void take_the_food();
 
 };
 
@@ -330,17 +350,24 @@ public:
     float piece_rad = 4;
     int dig_efficiency = 3;
 
-    space_to_dig_scene() {
+    space_to_dig_scene(Player* in_player) {
+
+        food_spending += 0.3f;
+
+        begin_time = std::chrono::steady_clock::now();
+
+        player = in_player;
 
         introduction_text_ = { text_squere("destroy those rock ruins, maybe there are something cool behind them!", 0), text_squere("hit space key to dig", 0) };
         end_text_ = { text_squere("congrats!", 0) };
 
         _circles.push_back(&circles);
 
-        amount_of_pieces = 88;
+        amount_of_pieces = 111;
 
         generate_pieses();
         
+        get_possible_loot();
         _pictures.push_back(result_loot);
 
         //pictures.push_back(loot[rand_int(0, loot.size() - 1)]);
@@ -354,6 +381,8 @@ public:
     void generate_pieses();
 
     void action();
+
+    void get_possible_loot();
 };
 
 class collect_snake_thing : public Mission {
@@ -369,7 +398,11 @@ public:
     std::vector<circle> frut_circs;
 
 
-    collect_snake_thing() {
+    collect_snake_thing(Player* in_player) {
+
+        begin_time = std::chrono::steady_clock::now();
+        get_possible_loot();
+        player = in_player;
 
         introduction_text_ = { text_squere("put all the rocks into the chest. they are.. obviously VERY important rocks!!", 0), text_squere("use arrow keys to navigate", 0) };
         end_text_ = { text_squere("congrats!", 0) };
@@ -402,14 +435,37 @@ public:
 
     void action();
 
+    void get_possible_loot();
+
     void procces_collisions();
 
     void grow_snake();
 };
 
+void go_to_rungom_mission(Player* the_player);
+
 class Menu : public Screen {
+private:
+    std::vector<std::string> select_options = { "go to a mission", "go to the shop", "go to the musium" };
+    Player* player;
+    //std::vector<text_squere> select_texts;
+    int selected_el = 0;
+
 public:
-    Menu() {}
+    Menu(Player* in_player) : player(in_player){
+        int step = 5;
+        int i = 0;
+
+        for (int y = (((int)select_options.size() - 1) / 2) * step; y >= -(((int)select_options.size() - 1) / 2) * step && i < select_options.size(); y -= step) {
+            _text.emplace_back(0, y, select_options[i], 20);
+
+            i++;
+        }
+
+        for (int i = 0; i < _text.size(); i++) {
+            _text[i].is_big = i == selected_el;
+        }
+    }
 
     void action();
 };

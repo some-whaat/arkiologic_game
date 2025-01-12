@@ -84,12 +84,24 @@ void collect_snake_thing::action() {
 
 
         if (something_changed == true) {
+            take_the_food();
+
             procces_collisions();
 
             render();
             something_changed = false;
         }
     }
-
+    player->food -= food_spend;
     text_seq_render(end_text_);
+}
+
+void collect_snake_thing::get_possible_loot() {
+
+    std::ifstream sword("sword.txt");
+    std::ifstream kirk("kirk.txt");
+
+    std::vector<loot> possible_loot = { loot(sword, "sword", 0, 0), loot(kirk, "kirk", 0, 0) };
+
+    result_loot = possible_loot[rand_int(0, possible_loot.size() - 1)];
 }

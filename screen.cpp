@@ -82,10 +82,6 @@ void Screen::render() {
         for (picture pic : _pictures) {
             pic.draw_pic(&screen_vec, *this);
         }
-
-        for (text_squere text : _text) {
-            text.draw_text(&screen_vec, *this);
-        }
         
         for (int y = rows / 2; y > -1 * (rows / 2); y--) {
 
@@ -108,6 +104,10 @@ void Screen::render() {
             }*/
         }
         //pictures[0].draw_pic(&screen_vec, *this);
+
+        for (text_squere text : _text) {
+            text.draw_text(&screen_vec, *this);
+        }
 
         for (int i = 0; i < rows; i++) {
 
