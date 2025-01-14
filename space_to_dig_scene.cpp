@@ -29,8 +29,6 @@ void space_to_dig_scene::generate_pieses() {
 
 void space_to_dig_scene::action() {
 
-    text_seq_render(introduction_text_);
-
     while (circles.size() > 0) {
         take_the_food();
 
@@ -50,15 +48,15 @@ void space_to_dig_scene::action() {
         render();
     }
 
-    text_seq_render(end_text_);
+    outtro();
 }
 
 void space_to_dig_scene::get_possible_loot() {
 
     std::ifstream sword("sword.txt");
-    std::ifstream kirk("kirk.txt");
+    std::ifstream gamstone("gamstone.txt");
 
-    std::vector<loot> possible_loot = { loot(sword, "sword", 0, 0), loot(kirk, "kirk", 0, 0) };
+    std::vector<loot> possible_loot = { loot(sword, "sword", 7, 0, 0), loot(gamstone, "gamstone", 8, 0, 0) };
 
     result_loot = possible_loot[rand_int(0, possible_loot.size() - 1)];
 }

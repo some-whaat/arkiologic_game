@@ -130,13 +130,17 @@
     <ClCompile Include="arkiologic_game.cpp" />
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="collect_snake_thing.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Mission.cpp" />
+    <ClCompile Include="Musium.cpp" />
     <ClCompile Include="picture.cpp" />
     <ClCompile Include="position.cpp" />
     <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="Selecters.cpp" />
     <ClCompile Include="space_to_dig_scene.cpp" />
     <ClCompile Include="screen.cpp" />
+    <ClCompile Include="Store.cpp" />
     <ClCompile Include="text_squere.cpp" />
     <ClCompile Include="usful_funcs.cpp" />
   </ItemGroup>
@@ -145,10 +149,13 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="chest.txt" />
+    <Text Include="dino.txt" />
     <Text Include="dude.txt" />
     <Text Include="gamstone.txt" />
+    <Text Include="hand.txt" />
     <Text Include="kirk.txt" />
     <Text Include="scraps.txt" />
+    <Text Include="scull.txt" />
     <Text Include="sword.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

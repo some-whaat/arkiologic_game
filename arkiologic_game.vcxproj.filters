@@ -54,6 +54,18 @@
     <ClCompile Include="Mission.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Selecters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Musium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -77,6 +89,15 @@
       <Filter>Resource Files\loot</Filter>
     </Text>
     <Text Include="gamstone.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="dino.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="hand.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="scull.txt">
       <Filter>Resource Files\loot</Filter>
     </Text>
   </ItemGroup>

@@ -13,7 +13,7 @@
 #include <cctype>
 #include <random>
 #include <climits>
-#include <cstdlib>
+#include <conio.h>
 
 class position;
 class circle;
@@ -22,9 +22,12 @@ class text_squere;
 class picture;
 class loot;
 class Screen;
-class Scene;
+class Mission;
+class Player;
 
-//extern enum menu_options;
+extern bool is_working;
+
+//enum mission_type {any, snake, ruins};
 
 int rand_int(int down_bord, int up_bord);
 
@@ -89,11 +92,13 @@ public:
     float hight;
     float wighth;
 
+    bool is_big = false;
+
     rectangle() {
         x, y, hight, wighth = 0;
     }
 
-    rectangle(float in_x, float in_y, float in_hight, float in_wighth) : hight(in_hight), wighth(in_wighth) {
+    rectangle(float in_x, float in_y, float in_wighth, float in_hight) : hight(in_hight), wighth(in_wighth) {
         x = in_x;
         y = in_y;
     }
@@ -104,14 +109,12 @@ public:
 
     void draw_rec(std::vector<std::string>* screen_vec, Screen& screen, char fill, int add_val);
 
-    void draw_frame(std::vector<std::string>* screen_vec, Screen& screen, bool is_big, int add_val);
+    void draw_frame(std::vector<std::string>* screen_vec, Screen& screen, int add_val);
 };
 
 class text_squere : public rectangle {
 public:
     std::vector<std::string> text_vec;
-
-    bool is_big = false;
 
     text_squere() : text_vec({}) {}
 
@@ -236,10 +239,36 @@ public:
 class loot : public picture {
 public:
     std::string name;
+    int cost;
 
     loot() : name("") {}
 
-    loot(std::ifstream& file, std::string in_name, int in_x, int in_y) : name(in_name) {
+    loot(std::ifstream& file, std::string in_name, int in_cost, int in_x, int in_y) : name(in_name), cost(in_cost) {
+        x = in_x;
+        y = in_y;
+
+        std::string str;
+        while (std::getline(file, str))
+        {
+            image_vec.push_back(str);
+        }
+
+        hight = image_vec.size();
+        wighth = image_vec[0].size();
+    }
+};
+
+class equipment : public loot {
+public:
+    int for_what_mission;
+
+    equipment() {}
+
+    equipment(std::ifstream& file, std::string in_name, int in_cost, int in_for_what_mission, int in_x, int in_y) : for_what_mission(in_for_what_mission) {
+        
+        name = in_name;
+        cost = in_cost;
+        
         x = in_x;
         y = in_y;
 
@@ -262,7 +291,7 @@ protected:
     std::vector<std::string> screen_vec;
 
     bool something_changed = true;
-    const int MBF = 77; //milliseconds between frames
+    int MBF = 77; //milliseconds between frames
 
 
 public:
@@ -271,6 +300,7 @@ public:
 
     std::vector<std::vector<circle>*> _circles;
     std::vector<picture> _pictures;
+    std::vector<rectangle> _frames;
     std::vector<text_squere> _text;
 
     CONSOLE_SCREEN_BUFFER_INFO csbi;
@@ -300,21 +330,43 @@ public:
 
     void text_seq_render(std::vector<text_squere> text_seq);
 
+    void add_vert_text(std::vector<std::string> texts, int step, int text_whith);
+
+    void show_vert_text(std::vector<std::string> texts, int step, int text_whith);
+
+    void show_text_and_pic(std::string text, picture pic);
+
+    bool yes_no_choice(std::string text);
+
 };
 
 class Player {
 public:
     unsigned int money = 0;
-    float food = 0;
+    unsigned int food = 0;
 
-    std::vector<loot> inventory = {};
+    std::vector<loot> loot_inventory = {};
+    std::vector<equipment> eqip_inventory = {};
 
-    Player() {}
+    std::vector<loot> musium_items = {};
+
+    Player() {
+        std::ifstream hand("hand.txt");
+
+        eqip_inventory.emplace_back(hand, "your hand", 8, -1, 0, 0);
+    }
+
+    Player(int in_food, int in_money) : food(in_food), money(in_money) {
+        std::ifstream hand("hand.txt");
+
+        eqip_inventory.emplace_back(hand, "your hand", 8, -1, 0, 0);
+    }
 
 };
 
 class Mission : public Screen {
 public:
+    std::vector<text_squere> aftertroduction_text_;
     std::vector<text_squere> introduction_text_;
     std::vector<text_squere> end_text_;
     loot result_loot;
@@ -327,7 +379,8 @@ public:
 
     std::chrono::steady_clock::time_point begin_time;
 
-    //difficulty_lewel
+    int this_mission_type;
+    int difficulty_lewel;
 
     Mission() {
         food_text = text_squere("", 0);
@@ -339,11 +392,14 @@ public:
 
     void take_the_food();
 
+    void intro();
+    void outtro();
+
 };
 
 class space_to_dig_scene : public Mission {
 public:
-    int amount_of_pieces;
+    int amount_of_pieces = 111;;
     std::vector<circle> circles;
     //Screen& screen;
 
@@ -351,19 +407,24 @@ public:
     int dig_efficiency = 3;
 
     space_to_dig_scene(Player* in_player) {
+        player = in_player;
+
+        introduction_text_ = { text_squere("you enter an abandoned ruin, it seems like the last time there were people here was thousands of years ago, will you be able to find a message from the ancient people?", 44), text_squere("select an instrument you would like to use", 0) };
+        aftertroduction_text_ = { text_squere("destroy those rock ruins, maybe there are something cool behind them!", 0), text_squere("hit space key to dig", 0) };
+        this_mission_type = 2;
+
+        intro();
+
+        amount_of_pieces += difficulty_lewel * 22;
+        dig_efficiency -= difficulty_lewel;
 
         food_spending += 0.3f;
 
         begin_time = std::chrono::steady_clock::now();
-
-        player = in_player;
-
-        introduction_text_ = { text_squere("destroy those rock ruins, maybe there are something cool behind them!", 0), text_squere("hit space key to dig", 0) };
+        
         end_text_ = { text_squere("congrats!", 0) };
 
         _circles.push_back(&circles);
-
-        amount_of_pieces = 111;
 
         generate_pieses();
         
@@ -399,12 +460,16 @@ public:
 
 
     collect_snake_thing(Player* in_player) {
+        player = in_player;
+        this_mission_type = 1;
+        introduction_text_ = { text_squere("wow. looks like somehow you've get lost in a feild. but at least there are a lot of stones here, they seem to be beautiful.. or at least that's what you'll tell the museum", 44), text_squere("select an instrument you would like to use", 0) };
+        aftertroduction_text_ = { text_squere("put all the rocks into the chest. they are.. obviously VERY important rocks!!", 0), text_squere("use arrow keys to navigate", 0) };
+
+        intro();
 
         begin_time = std::chrono::steady_clock::now();
         get_possible_loot();
-        player = in_player;
 
-        introduction_text_ = { text_squere("put all the rocks into the chest. they are.. obviously VERY important rocks!!", 0), text_squere("use arrow keys to navigate", 0) };
         end_text_ = { text_squere("congrats!", 0) };
 
         for (int i = 0; i < 0; i++) {
@@ -444,51 +509,142 @@ public:
 
 void go_to_rungom_mission(Player* the_player);
 
-class Menu : public Screen {
-private:
-    std::vector<std::string> select_options = { "go to a mission", "go to the shop", "go to the musium" };
+class Selecters : public Screen {
+protected:
+    int dist_bet_frames = 4;
+    bool is_quit = false;
+
     Player* player;
-    //std::vector<text_squere> select_texts;
+    int grid_side = 3;
     int selected_el = 0;
+public:
+
+    Selecters() {
+        MBF = 111;
+    }
+
+    void add_grid_els(int dist_bet_frames, std::vector<loot> el_vector);
+
+    void add_srats();
+
+    void action();
+
+    void selecting();
+
+    virtual void select_actions() = 0;
+};
+
+class Menu : public Selecters {
+private:
+    std::vector<std::string> select_options = { "go to a mission", "go to the shop", "go to the musium", "look in the inventory", "quit"};
+
+    //std::vector<text_squere> select_texts;
+    unsigned int selected_el = 0;
+
+    int text_whith = 30;
 
 public:
-    Menu(Player* in_player) : player(in_player){
-        int step = 5;
+    Menu(Player* in_player) {
+        player = in_player;
+
         int i = 0;
 
-        for (int y = (((int)select_options.size() - 1) / 2) * step; y >= -(((int)select_options.size() - 1) / 2) * step && i < select_options.size(); y -= step) {
-            _text.emplace_back(0, y, select_options[i], 20);
+        add_vert_text(select_options, 5, text_whith);
 
-            i++;
-        }
-
-        for (int i = 0; i < _text.size(); i++) {
+        for (int i = 0; i < select_options.size(); i++) {
             _text[i].is_big = i == selected_el;
         }
+
+        add_srats();
     }
 
     void action();
+
+    void select_actions();
+};
+
+class Store : public Selecters {
+private:
+    std::vector<equipment> awailble_equip;
+
+    //unsigned int selected_el;
+
+    std::vector<equipment> all_equip;
+
+public:
+    Store(Player* in_player) {
+        player = in_player;
+
+        add_products();
+    }
+
+    void add_products();
+
+    void match_products();
+
+    void get_products();
+
+    //void action();
+
+    //void selecting();
+
+    void make_purches();
+
+    void select_actions();
+};
+
+class Musium : public Selecters {
+public:
+    Musium(Player* in_player) {
+        player = in_player;
+
+        add_items();
+    }
+
+    void add_items();
+
+    void select_actions();
 };
 
 /*
-class Game {
+class Inventory : public Selecters {
+public:
+    Inventory() {}
+
+    void add_invent_items();
+};*/
+
+
+class Inventory_sell : public Selecters {
+public:
+    Inventory_sell(Player* in_player) {
+        player = in_player;
+
+        add_invent_items();
+    }
+
+    void sell();
+
+    void add_invent_items();
+
+    void select_actions();
+};
+
+class Inventory_return : public Selecters {
+private:
+    int to_return = 0;
+
 public:
 
-    Game() {
-        download_loot();
+    Inventory_return(Player* in_player) {
+        player = in_player;
 
-        Screen screen = Screen();
-
-        space_to_dig_scene mission = space_to_dig_scene();
-
-        while (mission.circles.size() != 0) {
-
-            if (GetAsyncKeyState(VK_SPACE))
-            {
-                mission.dig();
-            }
-
-            mission.render();
-        }
+        add_invent_items();
     }
-};*/
+
+    void add_invent_items();
+
+    void select_actions();
+
+    int get_to_return();
+};

@@ -38,8 +38,7 @@ void collect_snake_thing::procces_collisions() {
 }
 
 void collect_snake_thing::action() {
-
-    text_seq_render(introduction_text_);
+    
 
     while (snake_circs.size() > 0 || frut_circs.size() > 0)
     {
@@ -92,16 +91,16 @@ void collect_snake_thing::action() {
             something_changed = false;
         }
     }
-    player->food -= food_spend;
-    text_seq_render(end_text_);
+
+    outtro();
 }
 
 void collect_snake_thing::get_possible_loot() {
 
-    std::ifstream sword("sword.txt");
-    std::ifstream kirk("kirk.txt");
+    std::ifstream scull("scull.txt");
+    std::ifstream dino("dino.txt");
 
-    std::vector<loot> possible_loot = { loot(sword, "sword", 0, 0), loot(kirk, "kirk", 0, 0) };
+    std::vector<loot> possible_loot = { loot(scull, "a really cool scull", 99, 0, 0), loot(dino, "cute dino figurine", 7, 0, 0) };
 
     result_loot = possible_loot[rand_int(0, possible_loot.size() - 1)];
 }

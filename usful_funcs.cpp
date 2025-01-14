@@ -44,3 +44,5 @@ void download_loot() {
 
     loot.push_back(picture(sword_file, 0, 0));
 }*/
+
+bool was_button_pressed();
