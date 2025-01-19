@@ -7,7 +7,7 @@ void Musium::add_items() {
 	_text.clear();
 	_frames.clear();
 
-	add_grid_els(dist_bet_frames, player->musium_items);
+	add_grid_els(player->musium_items);
 }
 
 void Musium::select_actions() {
@@ -17,6 +17,8 @@ void Musium::select_actions() {
 		while (!GetAsyncKeyState(VK_SPACE)) {}
 
 		add_items();
+		something_changed = true;
+		render();
 	}
 	
 }

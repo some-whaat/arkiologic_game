@@ -8,33 +8,36 @@ void Mission::take_the_food() {
     food_spend = food_spending * (std::chrono::duration_cast<std::chrono::seconds>(now - begin_time).count());
 
     std::string new_num = std::to_string((int)(player->food - food_spend));
-    _text[0] = text_squere((int)(floor(rows / 2) - 2), (int)(floor(rows / 2) - ceil(new_num.size() / 2) - 3), "food left: " + new_num, 0);
+    _text[0] = text_squere((int)(floor(rows / 2) - ceil(new_num.size() / 2)), (int)(floor(rows / 2) - 3), "food left: " + new_num, 0);
 }
 
 void Mission::outtro() {
 
-    MBF = 444;
+    if (player->food - food_spend < 0) {
+        sorry_you_died();
+    }
+    else {
+        text_seq_render(end_text_);
 
-    text_seq_render(end_text_);
+        player->food -= food_spend;
+        player->loot_inventory.push_back(result_loot);
 
-    player->food -= food_spend;
-    player->loot_inventory.push_back(result_loot);
+        _pictures.clear();
+        _circles.clear();
+        _text.clear();
+        _frames.clear();
 
-    _pictures.clear();
-    _circles.clear();
-    _text.clear();
-    _frames.clear();
+        //_text.emplace_back(0, rows / 2 - 4, "congrats, you've found a " + result_loot.name, 0);
+        //_pictures.push_back(result_loot);
 
-    _text.emplace_back(0, rows / 2 - 4, "congrats, you've found a " + result_loot.name, 0);
-    _pictures.push_back(result_loot);
+        show_text_and_pic("you've found " + result_loot.name + ", it costs " + std::to_string(result_loot.cost), result_loot);
 
-    show_text_and_pic("congrats, you've found a " + result_loot.name, result_loot);
-
-    show_vert_text({ "you've spend " + std::to_string((int)food_spend) + " food", "now you have: " + std::to_string((int)(player->food)) }, 5, 0);
+        show_vert_text({ "you've spend " + std::to_string((int)food_spend) + " food", "now you have: " + std::to_string((int)(player->food)) }, 5, 0);
+    }
 }
 
 void Mission::intro() {
-    MBF = 444;
+
     text_seq_render(introduction_text_);
 
     int chosen_mission_type;
@@ -60,6 +63,11 @@ void Mission::intro() {
 
     text_seq_render(aftertroduction_text_);
 
-    MBF = 77;
+    change_dificulty();
+    get_possible_loot();
 }
 
+void Mission::sorry_you_died() {
+    text_seq_render({ text_squere("you have no food left, soo.. unforchunatly, you have died of hunger :(((", 44), text_squere("sorry :/", 0) });
+    is_working = false;
+}

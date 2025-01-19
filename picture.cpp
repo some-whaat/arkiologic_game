@@ -24,3 +24,15 @@ void picture::draw_pic(std::vector<std::string>* screen_vec, Screen& screen) {
         i++;
     }
 }
+
+void picture::add_pic(std::ifstream& file) {
+
+    std::string str;
+    while (std::getline(file, str))
+    {
+        image_vec.push_back(str);
+    }
+
+    hight = image_vec.size();
+    wighth = image_vec[0].size();
+}

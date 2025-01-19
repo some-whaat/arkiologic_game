@@ -40,7 +40,7 @@ void collect_snake_thing::procces_collisions() {
 void collect_snake_thing::action() {
     
 
-    while (snake_circs.size() > 0 || frut_circs.size() > 0)
+    while ((snake_circs.size() > 0 || frut_circs.size() > 0) && player->food - food_spend >= 0)
     {
         position dir;
 
@@ -99,8 +99,14 @@ void collect_snake_thing::get_possible_loot() {
 
     std::ifstream scull("scull.txt");
     std::ifstream dino("dino.txt");
+    std::ifstream doll("doll.txt");
 
-    std::vector<loot> possible_loot = { loot(scull, "a really cool scull", 99, 0, 0), loot(dino, "cute dino figurine", 7, 0, 0) };
+    std::vector<loot> possible_loot = { loot(scull, "a really cool scull", 99, 0, 0), loot(dino, "cute dino figurine", 7, 0, 0), loot(doll, "an ancient (?) doll", 7, 0, 0) };
 
     result_loot = possible_loot[rand_int(0, possible_loot.size() - 1)];
+}
+
+void collect_snake_thing::change_dificulty() {
+    speed -= difficulty_lewel * 0.3;
+    start_food_am += difficulty_lewel * 6;
 }

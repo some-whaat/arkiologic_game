@@ -51,7 +51,7 @@ void position::follow(const position& to_pos, float speed, float min_dist = 0) {
 
 }
 
-void position::move_to(position& to_pos, float min_dist = 0) {
+void position::move_to(position to_pos, float min_dist = 0) {
     position between_vec = to_pos.mins(*this);
     float len = between_vec.len();
 

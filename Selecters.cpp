@@ -7,7 +7,8 @@ void Selecters::add_srats() {
 }
 
 
-void Selecters::add_grid_els(int dist_bet_frames, std::vector<loot> el_vector) {
+template <class T>
+void Selecters::add_grid_els(std::vector<T> el_vector) {
 
 	int cell_x = cols / grid_side;
 	int cell_y = rows / grid_side;
@@ -19,7 +20,7 @@ void Selecters::add_grid_els(int dist_bet_frames, std::vector<loot> el_vector) {
 			_frames.emplace_back(x, y, cell_x * 2 - dist_bet_frames, cell_y - dist_bet_frames);
 
 			if (i < el_vector.size()) {
-				loot new_equi = el_vector[rand_int(0, el_vector.size() - 1)];
+				T new_equi = el_vector[i];
 				new_equi.x = x;
 				new_equi.y = y;
 
@@ -29,6 +30,8 @@ void Selecters::add_grid_els(int dist_bet_frames, std::vector<loot> el_vector) {
 		}
 	}
 }
+template void Selecters::add_grid_els<class loot>(std::vector<class loot>);
+template void Selecters::add_grid_els<class equipment>(std::vector<class equipment>);
 
 void Selecters::action() {
 

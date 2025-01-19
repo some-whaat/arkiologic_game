@@ -29,8 +29,9 @@ void space_to_dig_scene::generate_pieses() {
 
 void space_to_dig_scene::action() {
 
-    while (circles.size() > 0) {
+    while (circles.size() > 0 && player->food - food_spend >= 0) {
         take_the_food();
+
 
         if (GetAsyncKeyState(VK_SPACE)) {
 
@@ -55,8 +56,16 @@ void space_to_dig_scene::get_possible_loot() {
 
     std::ifstream sword("sword.txt");
     std::ifstream gamstone("gamstone.txt");
+    std::ifstream vase("vase.txt");
 
-    std::vector<loot> possible_loot = { loot(sword, "sword", 7, 0, 0), loot(gamstone, "gamstone", 8, 0, 0) };
+    std::vector<loot> possible_loot = { loot(sword, "a sword", 7, 0, 0), loot(gamstone, "a gamstone", 8, 0, 0), loot(vase, "a vase", 6, 0, 0) };
+    //std::vector<loot> possible_loot = { loot(vase, "vase", 6, 0, 0) };
 
     result_loot = possible_loot[rand_int(0, possible_loot.size() - 1)];
+}
+
+void space_to_dig_scene::change_dificulty() {
+    amount_of_pieces += difficulty_lewel * 22;
+    dig_efficiency -= difficulty_lewel;
+    food_spending += difficulty_lewel * 0.1;
 }

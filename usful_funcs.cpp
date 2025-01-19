@@ -22,7 +22,7 @@ int rand_int(int down_bord, int up_bord) {
 }
 
 void go_to_rungom_mission(Player* the_player) {
-    switch (rand_int(0, 1))
+    switch (rand_int(0, 2))
     {
     case 0:
         collect_snake_thing(the_player).action();
@@ -30,6 +30,10 @@ void go_to_rungom_mission(Player* the_player) {
 
     case 1:
         space_to_dig_scene(the_player).action();
+        break;
+
+    case 2:
+        fishing_game(the_player).action();
         break;
 
     default:
@@ -46,3 +50,9 @@ void download_loot() {
 }*/
 
 bool was_button_pressed();
+
+void Player::loot_to_the_musium(loot add_loot) {
+    if (!std::any_of(musium_items.begin(), musium_items.end(), [&](loot mus_loot) {return add_loot.name == mus_loot.name; })) {
+        musium_items.push_back(add_loot);
+    }
+}

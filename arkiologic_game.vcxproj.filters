@@ -66,6 +66,9 @@
     <ClCompile Include="Inventory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fishing_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -85,19 +88,70 @@
     <Text Include="scraps.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="kirk.txt">
-      <Filter>Resource Files\loot</Filter>
-    </Text>
     <Text Include="gamstone.txt">
       <Filter>Resource Files\loot</Filter>
     </Text>
     <Text Include="dino.txt">
       <Filter>Resource Files\loot</Filter>
     </Text>
-    <Text Include="hand.txt">
+    <Text Include="scull.txt">
       <Filter>Resource Files\loot</Filter>
     </Text>
-    <Text Include="scull.txt">
+    <Text Include="vase.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="rod.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="fish_right1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="fish.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="jellyfish.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="fish_skeleton.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="shovel.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="boots.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="hand.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="kirk.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="rod_tool.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="fish_left1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="doll.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="boot.txt">
+      <Filter>Resource Files\loot</Filter>
+    </Text>
+    <Text Include="worm.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="gloves.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="banana.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="cake.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="name_text.txt">
       <Filter>Resource Files\loot</Filter>
     </Text>
   </ItemGroup>

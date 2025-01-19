@@ -2,7 +2,8 @@
 
 
 void Menu::action() {
-
+	
+	add_srats();
 	render();
 	something_changed = true;
 	
@@ -50,28 +51,61 @@ void Menu::action() {
 	switch (selected_el)
 	{
 	case 0:
+		//fishing_game(player).action();
 		go_to_rungom_mission(player);
 		break;
 
 	case 1:
 		Store(player).action();
+		_text.erase(_text.end() - 1, _text.end());
+		action();
 		break;
 
 	case 2:
-		Musium(player).action();
+		buy_food(5);
+		_text.erase(_text.end() - 1, _text.end());
+		action();
 		break;
 
 	case 3:
 		Inventory_sell(player).action();
+		_text.erase(_text.end() - 1, _text.end());
+		action();
 		break;
 
 	case 4:
+		Inventory_tools(player).action();
+		_text.erase(_text.end() - 1, _text.end());
+		action();
+		break;
+
+
+	case 5:
+		Musium(player).action();
+		_text.erase(_text.end() - 1, _text.end());
+		action();
+		break;
+
+	case 6:
 		is_working = false;
 		break;
 
 	default:
 		break;
 	}
+}
+
+void Menu::buy_food(int how_much) {
+	if (player->money >= how_much) {
+
+		player->food++;
+		player->money -= how_much;
+	}
+	else {
+		text_seq_render({ text_squere("sorry, you don't have enoth money", 0) });
+	}
+
+	something_changed = true;
 }
 
 void Menu::select_actions() {}

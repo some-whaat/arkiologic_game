@@ -84,30 +84,39 @@ void Screen::render() {
             //rec.draw_rec(&screen_vec, *this, '0', 0);
         }
 
+        /*for (std::vector<picture>*& pics_vec : _pictures) {
+            for (picture pic : *pics_vec) {
+                pic.draw_pic(&screen_vec, *this);
+            }
+        }*/
+
         for (picture pic : _pictures) {
             pic.draw_pic(&screen_vec, *this);
         }
         
-        for (int y = rows / 2; y > -1 * (rows / 2); y--) {
+        if (_circles.size() != 0) {
+            for (int y = rows / 2; y > -1 * (rows / 2); y--) {
 
-            //std::string row_str = "";
+                //std::string row_str = "";
 
-            for (int x = -1 * (cols / 2); x < cols / 2; x++) {
+                for (int x = -1 * (cols / 2); x < cols / 2; x++) {
 
-                char pix = pix_calc(x, y);
+                    char pix = pix_calc(x, y);
 
-                if (pix != ' ') {
-                    screen_vec[(rows / 2) - y].replace((x + (cols / 2)) * 2, 2, std::string(2, pix));
-                    //screen_vec[(rows / 2) - y].replace((x + (cols / 2)), 2, std::string(1, pix));
+                    if (pix != ' ') {
+                        screen_vec[(rows / 2) - y].replace((x + (cols / 2)) * 2, 2, std::string(2, pix));
+                        //screen_vec[(rows / 2) - y].replace((x + (cols / 2)), 2, std::string(1, pix));
 
+                    }
                 }
+                /*
+                if (y != -1 * (rows / 2) + 1) {
+                    //row_str += "\n";
+                    screen_vec[(rows / 2) - y] += '\n';
+                }*/
             }
-            /*
-            if (y != -1 * (rows / 2) + 1) {
-                //row_str += "\n";
-                screen_vec[(rows / 2) - y] += '\n';
-            }*/
         }
+        
         //pictures[0].draw_pic(&screen_vec, *this);
 
         for (text_squere text : _text) {
@@ -130,7 +139,8 @@ void Screen::render() {
 }
 
 void Screen::text_seq_render(std::vector<text_squere> text_seq) {
-
+    //MBF = 333;
+    while (GetAsyncKeyState(VK_SPACE)) {}
     something_changed = true;
 
     while (text_seq.size() != 0) {
@@ -198,6 +208,7 @@ void Screen::show_vert_text(std::vector<std::string> texts, int step, int text_w
 }
 
 void Screen::show_text_and_pic(std::string text, picture pic) {
+    while (GetAsyncKeyState(VK_SPACE)) {}
     _pictures.clear();
     _circles.clear();
     _text.clear();
@@ -217,6 +228,7 @@ void Screen::show_text_and_pic(std::string text, picture pic) {
 }
 
 bool Screen::yes_no_choice(std::string text) {
+    while (GetAsyncKeyState(VK_SPACE)) {}
     _pictures.clear();
     _circles.clear();
     _text.clear();
